@@ -23,6 +23,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "initial draft minesweeper\n....",
+    "githubUrl": "https://github.com/aditya-vaish5/minesweepering/blob/master/package.json"
   }
 }

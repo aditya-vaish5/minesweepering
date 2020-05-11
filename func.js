@@ -38,7 +38,7 @@ var matrix = () => {
     return mat;
 }
 
-var visible = () => {
+export var visible = () => {
     var t = [];
     var vis = [];
     for (var i = 0; i < 10; i++) {
