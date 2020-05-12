@@ -20,7 +20,7 @@ export default class Cell extends React.Component {
         return (
             <TouchableHighlight onPress={this._onPressButton.bind(this)}>
                 <View style={styles.block}>
-                    <Text style={styles.buttonText}>{this.props.r}.{this.props.c}</Text>
+                    <Text style={styles.buttonText}>{this.props.r}..{this.props.c}</Text>
                 </View>
             </TouchableHighlight>
         )
