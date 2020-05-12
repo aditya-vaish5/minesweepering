@@ -3,7 +3,7 @@
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker
-      .register('/aditya-vaish5/minesweepering/expo-service-worker.js', { scope: '/aditya-vaish5/minesweepering/' })
+      .register('/minesweepering/expo-service-worker.js', { scope: '/minesweepering/' })
       .then(function(info) {
         // console.info('Registered service-worker', info);
       })

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/aditya-vaish5/minesweepering/precache-manifest.47a21e0735d5913e793f6e7c5182a754.js"
+  "/minesweepering/precache-manifest.b5d614b4823abb5a6a434647f80e6d92.js"
 );
 
 workbox.skipWaiting();
@@ -29,7 +29,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("\\aditya-vaish5\\minesweepering\\index.html", {
+workbox.routing.registerNavigationRoute("\\minesweepering\\index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

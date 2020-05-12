@@ -1,21 +1,21 @@
 {
   "files": {
-    "app.js": "/aditya-vaish5/minesweepering/static/js/app.b3f6ba86.chunk.js",
-    "app.js.map": "/aditya-vaish5/minesweepering/static/js/app.b3f6ba86.chunk.js.map",
-    "runtime~app.js": "/aditya-vaish5/minesweepering/static/js/runtime~app.0178fb83.js",
-    "runtime~app.js.map": "/aditya-vaish5/minesweepering/static/js/runtime~app.0178fb83.js.map",
-    "static/js/2.434ea86e.chunk.js": "/aditya-vaish5/minesweepering/static/js/2.434ea86e.chunk.js",
-    "static/js/2.434ea86e.chunk.js.map": "/aditya-vaish5/minesweepering/static/js/2.434ea86e.chunk.js.map",
-    "favicon-16.png": "/aditya-vaish5/minesweepering/favicon-16.png",
-    "favicon-32.png": "/aditya-vaish5/minesweepering/favicon-32.png",
-    "favicon.ico": "/aditya-vaish5/minesweepering/favicon.ico",
-    "index.html": "/aditya-vaish5/minesweepering/index.html",
-    "manifest.json": "/aditya-vaish5/minesweepering/manifest.json",
-    "serve.json": "/aditya-vaish5/minesweepering/serve.json"
+    "app.js": "/minesweepering/static/js/app.4de2b8ac.chunk.js",
+    "app.js.map": "/minesweepering/static/js/app.4de2b8ac.chunk.js.map",
+    "runtime~app.js": "/minesweepering/static/js/runtime~app.5db6de3f.js",
+    "runtime~app.js.map": "/minesweepering/static/js/runtime~app.5db6de3f.js.map",
+    "static/js/2.434ea86e.chunk.js": "/minesweepering/static/js/2.434ea86e.chunk.js",
+    "static/js/2.434ea86e.chunk.js.map": "/minesweepering/static/js/2.434ea86e.chunk.js.map",
+    "favicon-16.png": "/minesweepering/favicon-16.png",
+    "favicon-32.png": "/minesweepering/favicon-32.png",
+    "favicon.ico": "/minesweepering/favicon.ico",
+    "index.html": "/minesweepering/index.html",
+    "manifest.json": "/minesweepering/manifest.json",
+    "serve.json": "/minesweepering/serve.json"
   },
   "entrypoints": [
-    "static/js/runtime~app.0178fb83.js",
+    "static/js/runtime~app.5db6de3f.js",
     "static/js/2.434ea86e.chunk.js",
-    "static/js/app.b3f6ba86.chunk.js"
+    "static/js/app.4de2b8ac.chunk.js"
   ]
 }
