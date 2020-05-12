@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/aditya-vaish5/minesweepering",
+  "homepage": "https://aditya-vaish5.github.io/minesweepering/",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "deploy": "gh-pages -d web-build",
