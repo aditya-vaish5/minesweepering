@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/aditya-vaish5/minesweepering/precache-manifest.b3b7920949862bae79390fad569995d8.js"
+  "/aditya-vaish5/minesweepering/precache-manifest.47a21e0735d5913e793f6e7c5182a754.js"
 );
 
 workbox.skipWaiting();

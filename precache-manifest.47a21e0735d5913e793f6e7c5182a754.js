@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/aditya-vaish5/minesweepering/favicon-16.png"
   },
   {
-    "revision": "33536f46ad6c492c1823",
-    "url": "/aditya-vaish5/minesweepering/static/js/app.5dad495b.chunk.js"
+    "revision": "470a27f94bbea8e4d7c8",
+    "url": "/aditya-vaish5/minesweepering/static/js/app.b3f6ba86.chunk.js"
   },
   {
     "revision": "f52e233a2b3b02609a50",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/aditya-vaish5/minesweepering/manifest.json"
   },
   {
-    "revision": "6d7a3464e6a047d8c9600f5522cf5b2b",
+    "revision": "6afb941fe6768cd6d57edce110fb02b8",
     "url": "/aditya-vaish5/minesweepering/index.html"
   },
   {
