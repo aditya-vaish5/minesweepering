@@ -10,7 +10,8 @@ export default class Row extends React.Component {
             ans.push(<Cell mat={this.props.mat}
                 r={this.props.r}
                 c={i} vis={this.props.vis}
-                _onPressButton={this.props._onPressButton} />
+                _onPressButton={this.props._onPressButton}
+                isGameOver={this.props.isGameOver} />
             );
         }
         return (
@@ -21,6 +22,7 @@ export default class Row extends React.Component {
     }
 }
 Row.propTypes = {
+    isGameOver : PropTypes.bool,
     _onPressButton: PropTypes.func,
     r: PropTypes.number,
     mat: PropTypes.array,
