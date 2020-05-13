@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/minesweepering/favicon-16.png"
   },
   {
-    "revision": "336ac30da021428b0847",
-    "url": "/minesweepering/static/js/app.d15d874e.chunk.js"
+    "revision": "7318e32be4339924ed43",
+    "url": "/minesweepering/static/js/app.a6ceb138.chunk.js"
   },
   {
     "revision": "28166ce93017b1cecc08",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/minesweepering/static/media/bomb.b57c2a55.jpg"
   },
   {
-    "revision": "3c2380e51d4f810f9ebd",
-    "url": "/minesweepering/static/js/2.4e947e91.chunk.js"
+    "revision": "b0220b08f13f07f2c6fc",
+    "url": "/minesweepering/static/js/2.edb0f6e0.chunk.js"
   },
   {
     "revision": "d0c694b562b2208635f250762cd7fc79",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/minesweepering/manifest.json"
   },
   {
-    "revision": "0bd3b2fa4a66da5e814d917947345e6f",
+    "revision": "83cb0cfc2ebbd552691633fdcc84bf23",
     "url": "/minesweepering/index.html"
   },
   {
