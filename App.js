@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Row from './RowOfCell.js';
-import matrix, { visible, newVis, bombClicked, isWon } from './func.js';
+import matrix, { visible, newVis, bombClicked, isWon,allVis } from './func.js';
 class out extends React.Component {
 
   state = {
@@ -21,9 +21,13 @@ class out extends React.Component {
       this.setState(prevState => ({ vis: newVis(prevState.vis, prevState.mat, i, j) }));
     }
     this.setState(prevState => ({ isGameWon: isWon(prevState.vis, prevState.mat) }));
+    if(isWon(this.state.vis,this.state.mat)){
+      console.log("control came here");
+      this.setState(prevState => ({vis : allVis(prevState.vis)}))
+    }
     // var s = toString(this.state.mat[i],this.state.mat[j])
     // alert(s);
-    // console.log(this.state.vis);
+    console.log(this.state.vis);
   }
   render() {
     // matrix();
@@ -39,10 +43,10 @@ class out extends React.Component {
           {res}
         </View>
         <View >
-          {(this.state.isGameWon) ? <Text style={styles.result}>Game Won</Text> : <Text />}
+          {(this.state.isGameWon) ? <Text style={styles.result_green}>Game Won</Text> : <Text />}
         </View>
         <View >
-          {(this.state.isGameOver) ? <Text style={styles.result}>Game Over</Text> : <Text />}
+          {(this.state.isGameOver) ? <Text style={styles.result_red}>Game Over</Text> : <Text />}
         </View>
       </View>)
   }
@@ -64,12 +68,18 @@ const styles = StyleSheet.create({
     padding: 10,
     flex: 0.5,
   },
-  result: {
+  result_green: {
     fontSize: 60,
-    color: 'black',
     fontWeight: 'bold',
     textAlign: 'center',
+    color: 'green',
   },
+  result_red: {
+    fontSize: 60,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: 'red',
+  }
 });
 
 export default out;
