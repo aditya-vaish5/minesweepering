@@ -8,7 +8,7 @@ var matrix = () => {
     for (var i = 0; i < 10; i++) {
         mat.push(JSON.parse(JSON.stringify(t)));
     }
-    for (var i = 0; i < 6;) {
+    for (var i = 0; i < 10;) {
         var r = Math.floor(Math.random() * 10);
         var c = Math.floor(Math.random() * 10);
         if (mat[r][c] == -1) {
